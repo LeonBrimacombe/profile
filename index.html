@@ -11,76 +11,64 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Trocchi&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
-        <defs>
-        <radialGradient id="Gradient1" cx="50%" cy="50%" fx="0.441602%" fy="50%" r=".5"><animate attributeName="fx" dur="34s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 0, 255, 1)"></stop><stop offset="100%" stop-color="rgba(255, 0, 255, 0)"></stop></radialGradient>
-        <radialGradient id="Gradient2" cx="50%" cy="50%" fx="2.68147%" fy="50%" r=".5"><animate attributeName="fx" dur="23.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255, 255, 0, 1)"></stop><stop offset="100%" stop-color="rgba(255, 255, 0, 0)"></stop></radialGradient>
-        <radialGradient id="Gradient3" cx="50%" cy="50%" fx="0.836536%" fy="50%" r=".5"><animate attributeName="fx" dur="21.5s" values="0%;3%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 255, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 255, 0)"></stop></radialGradient>
-        <radialGradient id="Gradient4" cx="50%" cy="50%" fx="4.56417%" fy="50%" r=".5"><animate attributeName="fx" dur="23s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0, 255, 0, 1)"></stop><stop offset="100%" stop-color="rgba(0, 255, 0, 0)"></stop></radialGradient>
-        <radialGradient id="Gradient5" cx="50%" cy="50%" fx="2.65405%" fy="50%" r=".5"><animate attributeName="fx" dur="24.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(0,0,255, 1)"></stop><stop offset="100%" stop-color="rgba(0,0,255, 0)"></stop></radialGradient>
-        <radialGradient id="Gradient6" cx="50%" cy="50%" fx="0.981338%" fy="50%" r=".5"><animate attributeName="fx" dur="25.5s" values="0%;5%;0%" repeatCount="indefinite"></animate><stop offset="0%" stop-color="rgba(255,0,0, 1)"></stop><stop offset="100%" stop-color="rgba(255,0,0, 0)"></stop></radialGradient>
-        </defs>
-        <!--<rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient4)">
-        <animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite" />
-        <animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="17s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient5)">
-        <animate attributeName="x" dur="23s" values="0%;-25%;0%" repeatCount="indefinite" />
-        <animate attributeName="y" dur="24s" values="25%;-25%;25%" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="18s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="0" y="0" width="100%" height="100%" fill="url(#Gradient6)">
-        <animate attributeName="x" dur="25s" values="-25%;0%;-25%" repeatCount="indefinite" />
-        <animate attributeName="y" dur="26s" values="0%;-25%;0%" repeatCount="indefinite" />
-        <animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="19s" repeatCount="indefinite"/>
-        </rect>-->
-        <rect x="13.744%" y="1.18473%" width="100%" height="100%" fill="url(#Gradient1)" transform="rotate(334.41 50 50)"><animate attributeName="x" dur="20s" values="25%;0%;25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="21s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="7s" repeatCount="indefinite"></animateTransform></rect>
-        <rect x="-2.17916%" y="35.4267%" width="100%" height="100%" fill="url(#Gradient2)" transform="rotate(255.072 50 50)"><animate attributeName="x" dur="23s" values="-25%;0%;-25%" repeatCount="indefinite"></animate><animate attributeName="y" dur="24s" values="0%;50%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="12s" repeatCount="indefinite"></animateTransform>
-        </rect>
-        <rect x="9.00483%" y="14.5733%" width="100%" height="100%" fill="url(#Gradient3)" transform="rotate(139.903 50 50)"><animate attributeName="x" dur="25s" values="0%;25%;0%" repeatCount="indefinite"></animate><animate attributeName="y" dur="12s" values="0%;25%;0%" repeatCount="indefinite"></animate><animateTransform attributeName="transform" type="rotate" from="360 50 50" to="0 50 50" dur="9s" repeatCount="indefinite"></animateTransform>
-        </rect>
-        </svg>
+    <div class="container background">
+      <div class="animation-container">
+        <div class="shape1"></div>
+        <div class="shape2"></div>
+        <div class="shape3"></div>
+        <div class="shape4"></div>
+        <div class="shape5"></div>
+        <div class="shape6"></div>
+      </div>
+
       <div class="title-section child">
         <h1>Leon <br> Brimacombe</h1>
         <h2>Fullstack Developer</h2>
       </div>
+
       <div class="image-section child"><img class="image-shadow" src=images/headshot.JPEG alt=”Leon-Profile-Photo”></div>
-      <div id="section-highlight" class="card-white">
-        <h2> About me </h2>
-          <p>
-            Hi, I’m Leon! A Full-Stack Developer with three years experience in the fast-paced Fast-Moving Cosumer Goods sector.
-          </p>
-          <p>
-            </br>Beginning my career in Operations, I am eager to apply my unique technical perspective to a dynamic development team where I can continue learning and contribute to impactful projects.
-          </p>
-      </div>
 
-      <div class="card-white">
-         <h3> Previous projects </h3>
-         <ul class="list-inline">
-           <li><strong>Profitability Calculator</strong> - A sales tool, used in-field, across a 45-person sales team. Generates sales agreement, to be signed in-app and outputs as PDF attachment in email to customer.</li>
-           <li><br><strong>AirBnB Clone</strong> - A clone of AirBnB.</li>
-         </ul>
+      <div class="container">
+        <button onclick="showContact()" class="contact-button">Contact info</button>
 
-         <h3> Other interests </h3>
-         <ol>
-           <li> Coaching/playing football </li>
-           <li> Running </li>
-           <li> Exploring new cuisines </li>
-         </ol>
-      </div>
+        <div id="hidden-contact">
+          <p><i class="fa-solid fa-envelope"></i> leonbrimacombe@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +447584094343</p>
+          <p><i class="fa-solid fa-location-pin"></i> London, UK</p>
+        </div>
 
-      <div class="text-closing">
-        <h3>
-         Follow me
-        </h3>
-        <ul class="list-inline">
-          <li><a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-          <li><a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        </ul>
-       </div>
+        <div id="section-highlight" class="card-white">
+          <h3> About me </h3>
+            <p>
+              Hi, I’m Leon! A Full-Stack Developer with three years experience in the dynamic Fast-Moving Cosumer Goods sector.
+            </p>
+            <p>
+              </br>Having started my career in Supply Chain, I am eager to apply my unique operational perspective to a dynamic development team where I can continue learning and contribute to impactful projects.
+            </p>
+        </div>
+
+        <div class="card-white">
+           <h3> Previous projects </h3>
+           <ul class="list-inline">
+             <li><strong>Profitability Calculator</strong> - A sales tool, used in-field, across a 45-person sales team. Generates sales agreement, to be signed in-app and outputs as PDF attachment in email to customer.</li>
+             <li><br><strong>AirBnB Clone</strong> - A clone of AirBnB.</li>
+           </ul>
+
+           <br>
+           <h3> Languages </h3>
+           <p>HTML, CSS, JavaScript, Ruby on Rails, Sigma, Git Github, SQL, Heroku, R, STATA</p>
+        </div>
+
+        <div class="text-closing">
+          <h3>
+           Follow me
+          </h3>
+          <ul class="list-inline">
+            <li><a class="link-icons" href="https://github.com/LeonBrimacombe" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li><a class="link-icons" href="https://www.linkedin.com/in/lbrimacombe/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+         </div>
+        </div>
     </div>
   </body>
 </html>
